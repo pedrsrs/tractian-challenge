@@ -1,4 +1,3 @@
-# === Standard Library Imports ===
 import os
 import re
 import math
@@ -196,13 +195,13 @@ async def download_image(html, product_id, client):
 
     image_uri = img_tag.attributes["data-src"]
     url = f"{BASE_URL}{image_uri}"
-    file_path = f"./output/assets/{product_id}/{product_id}.jpg"
+    file_path = f"./output/assets/{product_id}/img.jpg"
     return await async_download_with_retries(client, url, file_path)
 
 
 async def download_manual(product_id, client):
     url = f"{BASE_URL}/api/products/{product_id}/infopacket"
-    file_path = f"./output/assets/{product_id}/{product_id}.pdf"
+    file_path = f"./output/assets/{product_id}/manual.pdf"
     return await async_download_with_retries(client, url, file_path)
 
 
@@ -212,7 +211,7 @@ async def download_cad_file(dwg_file, product_id, client):
         "value": dwg_file['name'],
         "url": dwg_file['url']
     }
-    file_path = f"./output/assets/{product_id}/{product_id}.dwg"
+    file_path = f"./output/assets/{product_id}/cad.dwg"
     return await async_download_with_retries(client, url, file_path, params=params)
 
 
