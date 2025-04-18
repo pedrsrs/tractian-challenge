@@ -22,13 +22,18 @@ Também implementei um aquivo models.py para validação de dados usando Pydanti
 
 ## Resultados
 
-Usando requests assíncronas, obtive um tempo de execução médio de 30 segundos para 15 itens, ou 2 segundos por item.
+Usando requests assíncronas, obtive um tempo de execução médio de 30 segundos para 15 itens, ou 2 segundos por item em categorias de produto onde a maioria dos itens possuem arquivos CAD.
 
 ![image](https://github.com/user-attachments/assets/a9ed5aaf-eb33-449c-9f99-a02cbb2a10e6)
 
+Em categorias onde quase nenhum produto possui arquivos CAD, o tempo caiu para cerca de 11 segundos.
+
+![image](https://github.com/user-attachments/assets/300a351b-86e0-4fe8-8cca-6315ed383591)
+
+
 #### Exemplo de output: 
 
-![image](https://github.com/user-attachments/assets/ffe6745d-7ba9-4f41-9a33-2f5e71cc97bf)
+![image](https://github.com/user-attachments/assets/fb53b956-a6bd-4bc4-9b04-297683166864)
 
 
 #### OBS:
