@@ -1,0 +1,11 @@
+[project]
+name = "tractian-challenge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx[http2]>=0.28.1",
+    "pydantic>=2.11.3",
+    "selectolax>=0.3.28",
+]

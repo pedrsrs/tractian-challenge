@@ -1,0 +1,84 @@
+{
+  "product_id": "248-181TD",
+  "name": "Grinders / Belt Sanders",
+  "description": "1.5HP, 3600RPM, 1PH, 60HZ, 3535LC, 3535LC",
+  "specs": {
+    "Frequency": "60.00 Hz",
+    "Nameplate Output": "1.5",
+    "Number of Poles": "2",
+    "Phase": "1",
+    "Product Style": "BELT SANDER",
+    "Speed": "3600 rpm",
+    "Voltage": "115 V230 V",
+    "Wheel Bore Size": "0.7500 IN",
+    "Wheel Diameter": "8.0000 IN",
+    "Wheel Face": "1.0000 IN"
+  },
+  "bom": [
+    {
+      "part_number": "HW1001A31",
+      "description": "LOCKWASHER 5/16, ZINC PLT.591 OD, .319 I",
+      "quantity": 1
+    },
+    {
+      "part_number": "G8AP1003A01SP",
+      "description": "TOOL REST",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2806A01SP",
+      "description": "CONTACT WHEEL GUARD",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2801A01SP",
+      "description": "GRINDER GUARD, MACH",
+      "quantity": 1
+    },
+    {
+      "part_number": "HA6134A01SP",
+      "description": "TRACKING ARM, MACH",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2AP3003A01SP",
+      "description": "IDLER WHEEL -- BELT GRINDER",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2AP5001A01SP",
+      "description": "CONTACT WHEEL ASSY WITH RUBBER THREAD",
+      "quantity": 1
+    },
+    {
+      "part_number": "XY7510A12SP",
+      "description": "3/4-10 NUT R.H. HEX (NC) ZINC PLATED",
+      "quantity": 1
+    },
+    {
+      "part_number": "AB248",
+      "description": "ABRASIVE BELT, 2\" X 48\", 80 GRIT,CERAMIC",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2810A01SP",
+      "description": "GUARD (HALF) MACHINED, USE W/B2FH2811A01",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2808A01SP",
+      "description": "GUARD COVER, MACH",
+      "quantity": 1
+    },
+    {
+      "part_number": "MN902",
+      "description": "MANUAL FOR BELT GRINDERS",
+      "quantity": 1
+    }
+  ],
+  "assets": {
+    "manual": "./output/assets/248-181TD/248-181TD.pdf",
+    "cad": null,
+    "image": "./output/assets/248-181TD/248-181TD.jpg"
+  }
+}

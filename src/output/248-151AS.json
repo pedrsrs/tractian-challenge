@@ -1,0 +1,85 @@
+{
+  "product_id": "248-151AS",
+  "name": "Belt Sanders",
+  "description": "24P GRNDR PIVOTAL SPEC 35P486Z331",
+  "specs": {
+    "Nameplate Output": "1 1/2",
+    "Phase": "3",
+    "Product Style": "BELT SANDER",
+    "Wheel Bore Size": "0.7500 IN",
+    "Wheel Diameter": "8.0000 IN",
+    "Wheel Face": "1.0000 IN"
+  },
+  "bom": [
+    {
+      "part_number": "SP9002SP",
+      "description": "SWITCH 7402K4 (C-H)",
+      "quantity": 1
+    },
+    {
+      "part_number": "HW1001A31",
+      "description": "LOCKWASHER 5/16, ZINC PLT.591 OD, .319 I",
+      "quantity": 1
+    },
+    {
+      "part_number": "G8AP1003A01SP",
+      "description": "TOOL REST",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2806A01SP",
+      "description": "CONTACT WHEEL GUARD",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2801A01SP",
+      "description": "GRINDER GUARD, MACH",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2AP3003A01SP",
+      "description": "IDLER WHEEL -- BELT GRINDER",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2AP5001A01SP",
+      "description": "CONTACT WHEEL ASSY WITH RUBBER THREAD",
+      "quantity": 1
+    },
+    {
+      "part_number": "XY7510A12SP",
+      "description": "3/4-10 NUT R.H. HEX (NC) ZINC PLATED",
+      "quantity": 1
+    },
+    {
+      "part_number": "AB248",
+      "description": "ABRASIVE BELT, 2\" X 48\", 80 GRIT,CERAMIC",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2810A01SP",
+      "description": "GUARD (HALF) MACHINED, USE W/B2FH2811A01",
+      "quantity": 1
+    },
+    {
+      "part_number": "B2FH2808A01SP",
+      "description": "GUARD COVER, MACH",
+      "quantity": 1
+    },
+    {
+      "part_number": "LB1624",
+      "description": "COMBINED WARNING LABEL, ISO/ANSI PICTOGR",
+      "quantity": 1
+    },
+    {
+      "part_number": "MN902",
+      "description": "MANUAL FOR BELT GRINDERS",
+      "quantity": 1
+    }
+  ],
+  "assets": {
+    "manual": "./output/assets/248-151AS/248-151AS.pdf",
+    "cad": "./output/assets/248-151AS/248-151AS.dwg",
+    "image": "./output/assets/248-151AS/248-151AS.jpg"
+  }
+}

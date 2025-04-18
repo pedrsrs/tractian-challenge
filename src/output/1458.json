@@ -1,0 +1,40 @@
+{
+  "product_id": "1458",
+  "name": "Buffers",
+  "description": "5HP, 1500/1800RPM, 3PH, 50/60HZ, 3735M, BUFF",
+  "specs": {
+    "Frequency": "50.00 Hz60.00 Hz",
+    "Nameplate Output": "5",
+    "Number of Poles": "4",
+    "Phase": "3",
+    "Product Style": "GRINDER",
+    "Shaft Diameter": "1.250 IN",
+    "Speed": "1500 rpm1800 rpm",
+    "Voltage": "208 V230 V460 V",
+    "Wheel Bore Size": "1.2500 IN",
+    "Wheel Diameter": "14.0000 IN",
+    "Wheel Face": "3.0000 IN"
+  },
+  "bom": [
+    {
+      "part_number": "HW1001A31",
+      "description": "LOCKWASHER 5/16, ZINC PLT.591 OD, .319 I",
+      "quantity": 4
+    },
+    {
+      "part_number": "XZ2007A62SP",
+      "description": "1 1/4-7 NUT LH HEX (NC)",
+      "quantity": 1
+    },
+    {
+      "part_number": "LB1624",
+      "description": "COMBINED WARNING LABEL, ISO/ANSI PICTOGR",
+      "quantity": 1
+    }
+  ],
+  "assets": {
+    "manual": "./output/assets/1458/1458.pdf",
+    "cad": "./output/assets/1458/1458.dwg",
+    "image": "./output/assets/1458/1458.jpg"
+  }
+}
